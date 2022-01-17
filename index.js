@@ -4,7 +4,7 @@ const app = express();
 const PORT = 5000;
 
 
-//Middlewares ---
+//Middlewares 
 app.use(express.json())
 app.use('/users', userRoutes);
 
